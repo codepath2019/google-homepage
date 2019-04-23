@@ -6,46 +6,48 @@
         <link rel="stylesheet" href="style.css" media="all"/>
     </head>
     <body>
-        <nav>
-            <ul class="horizontal-nav no-list-style-nav section-left-header-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-            </ul>
-            <ul class="horizontal-nav no-list-style-nav section-right-header-nav">
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#">menu icon</a></li>
-                <li><a href="#">profile icon</a></li>
-            </ul>
-        </nav>
-        <main>
-            <!-- form action, and method attributes need to be specified in order to create client server requests-->
-            <form action="some_kind_of_script.js" method="get">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-                     alt="Google Logo">
-                <span>
-                    <input type="text"/>
-                    <img src="images/google-mic-color.png" alt="google colorful microphone"/>
-                </span>
+        <div class="page-container">
+            <nav class="nav-container cf">
+                <ul class="horizontal-nav no-list-style-nav section-left-header-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+                <ul class="horizontal-nav no-list-style-nav section-right-header-nav">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">menu icon</a></li>
+                    <li><a href="#">profile icon</a></li>
+                </ul>
+            </nav>
+            <main>
+                <!-- form action, and method attributes need to be specified in order to create client server requests-->
+                <form action="some_kind_of_script.js" method="get">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                        alt="Google Logo">
+                    <span>
+                        <input type="text"/>
+                        <img src="images/google-mic-color.png" alt="google colorful microphone"/>
+                    </span>
 
-                <div>
-                    <input type="button" value="Google Search"/>
-                    <input type="button" value="I'm Feeling Lucky"/>
-                </div>
-            </form>
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="#">Advertising</a></li>
-                        <li><a href="#">Business</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Settings</a></li>
-                    </ul>                    
-                </nav>
-            </footer>
-        </main>
+                    <div>
+                        <input type="button" value="Google Search"/>
+                        <input type="button" value="I'm Feeling Lucky"/>
+                    </div>
+                </form>
+                <footer>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Business</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>                    
+                    </nav>
+                </footer>
+            </main>
+        </div>
     </body>
 </html>

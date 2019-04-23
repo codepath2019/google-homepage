@@ -15,3 +15,19 @@ ul.section-right-header-nav {
     /* how to put block element at the right edge of a page? */
     float: right;
 }
+
+.nav-container ul.section-left-header-nav {
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.nav-container ul.section-right-header-nav {
+    margin-right: 10px;
+}
+
+/* solution source: https://www.fuseinteractive.ca/blog/understanding-humble-clearfix */
+.cf:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
