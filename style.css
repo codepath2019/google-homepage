@@ -1,0 +1,17 @@
+ul.horizontal-nav li{
+    display: inline-block;
+}
+
+ul.no-list-style-nav {
+    list-style-type: none;
+}
+
+ul.section-left-header-nav {
+    /* how to put block element at the left edge of a page? */
+    float: left;
+}
+
+ul.section-right-header-nav {
+    /* how to put block element at the right edge of a page? */
+    float: right;
+}
