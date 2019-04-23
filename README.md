@@ -8,6 +8,7 @@ What I learned:
 4. What is one way to position/move block-level elements horizontally? What is float?
 5. What type of element is <img>? How to align <img> horizontally?
 6. How to vertically align inline elements such as <input/>? How to vertically align multiple inline elements next to each other? (without using flex!)
+7. What kind of selector is this -> input[type="submit"] ?
 
 Awesome resources:
 1. https://internetingishard.com/html-and-css/floats/

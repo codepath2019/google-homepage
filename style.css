@@ -47,7 +47,8 @@ ul.section-right-header-nav {
 }
 
 .google-search-form img.google-logo {
-    width: 272px;   
+    width: 272px;
+    padding-bottom: 30px;   
 }
 
 .google-search-form div.center-horizontal {
@@ -72,6 +73,33 @@ form.google-search-form {
 }
 .google-search-form .google-search-bar .search-input {
     border: none;
-    min-width: 400px;
+    width: 425px;
     outline: none;
+    font-family: "system-ui";
+}
+
+.google-search-form .search-button-group-container {
+    margin-top: 20px;
+}
+
+.google-search-form .search-button-group input[type="submit"] {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.learn-about-paragraph {
+    text-align: center;
+    font-size: small;
+    font-family: arial,sans-serif;
 }
