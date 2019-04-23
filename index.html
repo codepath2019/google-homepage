@@ -21,15 +21,16 @@
             </nav>
             <main>
                 <!-- form action, and method attributes need to be specified in order to create client server requests-->
-                <form action="some_kind_of_script.js" method="get">
-                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-                        alt="Google Logo">
-                    <span>
-                        <input type="text"/>
-                        <img src="images/google-mic-color.png" alt="google colorful microphone"/>
-                    </span>
+                <form class="google-search-form" action="some_kind_of_script.js" method="get">
+                    <img class="center-horizontal google-logo"
+                         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                         alt="Google Logo">
+                    <div class="google-search-bar center-horizontal fit-content">
+                        <input type="text" class="search-input" placeholder="Search Google or type a URL"/>
+                        <input type="button" class="microphone-button"/>
+                    </div>
 
-                    <div>
+                    <div class="center-horizontal fit-content">
                         <input type="button" value="Google Search"/>
                         <input type="button" value="I'm Feeling Lucky"/>
                     </div>
