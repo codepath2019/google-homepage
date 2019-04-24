@@ -9,6 +9,7 @@ What I learned:
 5. What type of element is <img>? How to align <img> horizontally?
 6. How to vertically align inline elements such as <input/>? How to vertically align multiple inline elements next to each other? (without using flex!)
 7. What kind of selector is this -> input[type="submit"] ?
+8. How to make sure navigation bar sticks to the bottom of the page?
 
 Awesome resources:
 1. https://internetingishard.com/html-and-css/floats/

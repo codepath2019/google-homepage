@@ -6,23 +6,30 @@ ul.no-list-style-nav {
     list-style-type: none;
 }
 
-ul.section-left-header-nav {
+ul.section-left-header-nav, ul.section-left-footer-nav {
     /* how to put block element at the left edge of a page? */
     float: left;
 }
 
-ul.section-right-header-nav {
+ul.section-right-header-nav, ul.section-right-footer-nav {
     /* how to put block element at the right edge of a page? */
     float: right;
 }
 
-.nav-container ul.section-left-header-nav {
+.nav-container ul.section-left-header-nav, ul.section-left-footer-nav {
     padding-left: 0px;
     margin-left: 10px;
 }
 
-.nav-container ul.section-right-header-nav {
+.nav-container ul.section-right-header-nav, ul.section-right-footer-nav {
     margin-right: 10px;
+}
+
+.footer-nav-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* solution source: https://www.fuseinteractive.ca/blog/understanding-humble-clearfix */
