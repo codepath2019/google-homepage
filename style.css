@@ -45,6 +45,18 @@ a.nav-link:visited {
     color: red;
 }
 
+.profile-icon {
+    background: url("https://lh3.googleusercontent.com/-o_DVpjoCBKA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcJZDHhIRGMX7u2HqnYvh4Q68ombA/s64-c-mo/photo.jpg") no-repeat;
+    background-size: 32px;
+    background-position: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
 .footer-nav-container {
     position: absolute;
     bottom: 0;
