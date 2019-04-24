@@ -25,11 +25,33 @@ ul.section-right-header-nav, ul.section-right-footer-nav {
     margin-right: 10px;
 }
 
+.footer-nav-container ul {
+    margin-block-start: 10px;
+}
+
+a.nav-link{
+    font-size: small;
+    font-family: arial,sans-serif;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+a.learn-about-link {
+    text-decoration: none;
+}
+
+a.nav-link:visited {
+    color: red;
+}
+
 .footer-nav-container {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #f2f2f2;
+    height: 40px;
 }
 
 /* solution source: https://www.fuseinteractive.ca/blog/understanding-humble-clearfix */
@@ -80,7 +102,7 @@ form.google-search-form {
 }
 .google-search-form .google-search-bar .search-input {
     border: none;
-    width: 425px;
+    width: 500px;
     outline: none;
     font-family: "system-ui";
 }
@@ -110,3 +132,4 @@ form.google-search-form {
     font-size: small;
     font-family: arial,sans-serif;
 }
+
