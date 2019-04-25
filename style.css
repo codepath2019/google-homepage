@@ -55,6 +55,7 @@ a.nav-link:visited {
     border: none;
     margin-left: 15px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .footer-nav-container {
