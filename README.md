@@ -18,3 +18,6 @@ Awesome resources:
 3. http://phrogz.net/css/vertical-align/
 4. https://christopheraue.net/design/why-vertical-align-is-not-working 
     -> this article helped me vertical align my profile icons with the rest of the <li> elements without having to use flexbox. It hlped me understand how the value middle is calculated relative to baseline, and how an element's default value is baseline. Since I did not set a vertical alignment value for profile icon, it had pushed the baseline far past the default center, which meant that the middle line was also pushed down!
+
+TODO:
+FIX YOUR MARKDOWNS!
